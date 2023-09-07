@@ -1,0 +1,15 @@
+const firebase = require('firebase');
+
+const firebaseConfig = {
+    apiKey: "AIzaSyAwt1F0PjhcxNYn3Dx3j6mz-iyajuxLJhA",
+    authDomain: "rtcproj-3de0d.firebaseapp.com",
+    projectId: "rtcproj-3de0d",
+    storageBucket: "rtcproj-3de0d.appspot.com",
+    messagingSenderId: "837314399917",
+    appId: "1:837314399917:web:c2cbe619ec8bbc73790024",
+    measurementId: "G-MJYTY7MYL5"
+  };
+
+  
+const db = firebase.initializeApp(firebaseConfig)
+module.exports = db;
